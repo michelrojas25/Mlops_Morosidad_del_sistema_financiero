@@ -9,8 +9,7 @@ Este proyecto tiene como objetivo desarrollar un sistema predictivo de morosidad
 
 La arquitectura del proyecto se puede resumir en el siguiente diagrama:
 
-![Arquitectura del Sistema](https://drive.google.com/file/d/1ZBghYVORhX1zZzybSYlu8TFoDh3wkjp)
-
+![Arquitectura del Sistema](https://drive.google.com/uc?export=view&id=1ZBghYVORhX1zZzybSYlu8TFoDh3wkjp-)
 ### Componentes Principales:
 
 1. **Entrenamiento del Modelo:**
