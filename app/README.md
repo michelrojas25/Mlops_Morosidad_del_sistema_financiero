@@ -9,7 +9,7 @@ Este proyecto tiene como objetivo desarrollar un sistema predictivo de morosidad
 
 La arquitectura del proyecto se puede resumir en el siguiente diagrama:
 
-![Arquitectura del Sistema](ruta/a/tu/diagrama.png)
+![Arquitectura del Sistema](https://drive.google.com/drive/folders/1BzFFJumu1Yqc8hW3YTzI4Gkdv0XLzcM6)
 
 ### Componentes Principales:
 
@@ -44,8 +44,3 @@ La arquitectura del proyecto se puede resumir en el siguiente diagrama:
 
 ## Ejecución del Proyecto
 
-### 1. Clonar el repositorio:
-
-```bash
-git clone https://github.com/tu_usuario/tu_repositorio.git
-cd tu_repositorio
