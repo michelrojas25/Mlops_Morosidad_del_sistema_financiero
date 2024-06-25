@@ -1,0 +1,34 @@
+version: '3.8'
+
+services:
+  training:
+    build:
+      context: ./training
+      dockerfile: Dockerfile
+    volumes:
+      - ./model:/app/model
+      - ./datos:/app/datos
+    command: ["python", "train_model.py"]
+
+  api:
+    build:
+      context: ./api
+      dockerfile: Dockerfile
+    volumes:
+      - ./model:/app/model
+    ports:
+      - "8000:8000"
+    depends_on:
+      - training
+      - db
+
+  db:
+    image: postgres:13
+    volumes:
+      - ./database:/docker-entrypoint-initdb.d
+    environment:
+      POSTGRES_DB: mlops
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+    ports:
+      - "5432:5432"
